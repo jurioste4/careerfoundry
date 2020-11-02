@@ -1,7 +1,9 @@
 
-/customers
-/data_description
-/instacart
+/analysis
+/data
+/Project mangement
+/sql
+
 
 
 # Source for the following rules: https://raw.githubusercontent.com/github/gitignore/master/Python.gitignore
