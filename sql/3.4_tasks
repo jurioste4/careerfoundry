@@ -1,0 +1,15 @@
+EXPLAIN
+SELECT film_id, title
+FROM film;
+
+
+-----------------------------------
+EXPLAIN
+SELECT * FROM film;
+--------------------------------------
+SELECT title, release_year
+FROM film
+ORDER BY title asc;
+
+----------------------------------------------
+

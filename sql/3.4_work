@@ -1,0 +1,48 @@
+EXPLAIN
+SELECT *
+FROM film;
+--------------------------------------------------
+SELECT title,
+       description,
+       release_year
+FROM film;
+-----------------------------------------------
+SELECT title, release_year
+
+FROM film
+ORDER BY title DESC
+LIMIT 10;
+-----------------------------------------------------
+
+SELECT rating 
+FROM film
+GROUP BY rating;
+-----------------------------------------------------
+SELECT rating, COUNT(film_id)
+FROM film
+GROUP BY rating;
+----------------------------------------------------
+SELECT rating,
+	   rental_rate,
+	   COUNT(film_id)
+FROM film 
+GROUP BY rating,
+		 rental_rate;
+-------------------------------------------------------
+EXPLAIN
+SELECT DISTINCT rating, release_year
+FROM film;
+
+---------------------------------------------------
+EXPLAIN
+SELECT rating, release_year
+FROM film
+GROUP BY rating,release_year;
+
+-------------------------------------------------
+
+
+
+	   
+
+				
